@@ -26,7 +26,7 @@ function settings.cleanup()
         settings.ui_toggle_button:Show(false)
         settings.ui_toggle_button = nil
     end
-    if settings.ui_settings_window ~nil then
+    if settings.ui_settings_window ~= nil then
         settings.ui_settings_window:Show(false)
         settings.ui_settings_window = nil
     end
